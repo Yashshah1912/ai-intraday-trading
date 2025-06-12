@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-intraday-signal
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    plan: free
+    env: python
+    region: oregon
+    branch: main
+    repo: Yashshah1912/ai-intraday-signals
+    pythonVersion: 3.10
